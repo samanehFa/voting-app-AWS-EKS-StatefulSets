@@ -9,4 +9,4 @@ spec:
     - name: postgres-port
       port: 5432
       targetPort: 5432
-  type: ClusterIP  
+  clusterIP: None  
