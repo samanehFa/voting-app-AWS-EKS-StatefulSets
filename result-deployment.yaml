@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: result-container
-        image: docker.io/${{ secrets.DOCKER_USERNAME }}/voting-app-result:${{ env.IMAGE_TAG }}
+        image: samanehfa/result
         ports:
           - containerPort: 80
         env:
